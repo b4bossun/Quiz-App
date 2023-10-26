@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: outfit;
+    background: hsl(212, 45%, 89%);
+    text-align: center;
+    padding: 200px 600px;
+    
+}
+
+.motherdiv {
+    background: white;
+    width: 288px;
+    height: 455px;
+    border: solid 1px white;
+    border-radius: 5%;
+}
+
+img {
+    width: 265px;
+    height: 265px;
+    margin-top: 0.7em;
+    border-radius: 4%;
+}
+
+h1 {
+    margin-top: 5%;
+    font-size: 21px;
+    font-weight: 700px;
+    color: hsl(218, 44%, 22%);
+}
+p {
+    font-size: 15px;
+    font-weight: 300px;
+    font-weight: 300;
+    color: hsl(220, 15%, 55%) ;
+}
+
+.fontdiv {
+    margin-top: 1.2em;
+    width: 260px;
+    line-height: 1.1;
+    padding-left: 1.35em;
+}

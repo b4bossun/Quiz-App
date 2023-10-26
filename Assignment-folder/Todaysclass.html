@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./MyProjectStyle.css">
+</head>
+
+<body>
+    <table cellspacing="0" cellpadding="5">
+        <colgroup>
+            <col style="width:100px" />
+            <col />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cell 1.1</td>
+                <td>Cell 1.2</td>
+            </tr>
+            <tr>
+                <table>
+                    <tr>
+                        <td>Contact:</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>First Name</td>
+                                    <td>Last Name</td>
+                                </tr>
+                                <tr>
+                                    <td>First Name</td>
+                                    <td>Last Name</td>
+                                </tr>
+                                <tr>
+                                    <td>First Name</td>
+                                    <td>Last Name</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </tr>
+            <tr>
+
+            </tr>
+        <tfoot>
+            <tr>
+                <td>Footer 1</td>
+                <td>Footer 2</td>
+            </tr>
+        </tfoot>
+        </tbody>
+    </table>
+
+    <form>
+        <label for="FirstName">First Name:</label>
+        <input type="text" name="FirstName" placeholder="Enter your name" id="enter-your-name">
+        <label for="Password">Password:</label>
+        <input type="password" name="password" placeholder="password" id="password">
+        <label for="user-email"> Enter Email</label>
+        <input type="email" name="user-email" placeholder="email" id="user-email">
+        <label for="comment">comment here</label>
+        <textarea name="comment" id="" cols="30" rows="10" placeholder="comment here"
+            id="comment">comment here</textarea>
+    </form>
+</body>
+<form method="post" action="form.aspx">
+
+    <fieldset style="margin-top: 20vh;">
+        <legend>Client Details</legend>
+        <input type="text" id="Name" />
+        <input type="text" id="Phone" />
+    </fieldset>
+    <fieldset>
+        <legend>Order Details</legend>
+        <input type="text" id="Quantity" />
+        <textarea cols="40" rows="10" id="Remarks"></textarea>
+    </fieldset>
+    <form>
+        <label for="apple">Apple</label>
+        <input type="checkbox" name="fruit" value="apple" /><br>
+        <label for="mango">Mango</label>
+        <input type="checkbox" name="fruit" value="mango" /><br>
+        <label for="orange">Orange</label>
+        <input type="checkbox" name="fruit" value="orange" /><br>
+        <label for="watermelon">Watermelon</label>
+        <input type="checkbox" name="fruit" value="watermelon" /><br>
+    </form>
+    <form>
+        <label for="female">Female</label>
+        <input type="radio" name="title" value="Female" /><br>
+        <label for="male">Male</label>
+        <input type="radio" name="title" value="Male" /><br>
+    </form>
+    <form>
+        <label for="gender">Select Gender</label>
+        <select name="gender">
+            <option value="Value 1" selected="selected">Non-Binary</option>
+            <option value="Value 2">Female</option>
+            <option value="Value 3">Male</option>
+        </select>
+    </form>
+    <form>
+        <input type="submit" name="submitBtn" value="Apply Now" />
+        <a href="https://wwww.google.com" target="_blank"> input type= "submit" name= "submitBtn" value= "Apply Now"
+        </a>
+    </form>
+    <button type="submit"></button>
+    <form></form>
+
+</form>
+</form>
+<form method="post" action="apply-now.php">
+
+    <input name="subject" type="hidden" value="Class" />
+
+    <fieldset>
+        <legend>Academic information</legend>
+        <label for="degree">Degree</label>
+        <select name="degree" id="degree">
+            <option value="BA">Bachelor of Art</option>
+            <option value="BS">Bachelor of Science</option>
+            <option value="MBA" selected="selected">Master of Business Administration</option>
+        </select>
+        <br />
+        <label for="studentid">Student ID</label>
+        <input type="password" name="studentid" />
+    </fieldset>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <br />
+        Gender:
+        <input name="gender" type="radio" id="gm" value="m" />
+        <label for="gm">Male</label>
+        <input name="gender" type="radio" id="gf" value="f" />
+        <label for="gf">Female</label>
+        <br />
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+    </fieldset>
+    <p>
+        <textarea name="terms" cols="30" rows="4" readonly="readonly">TERMS AND CONDITIONS...</textarea>
+    </p>
+    <p>
+        <input type="submit" name="submit" value="Send Form" />
+        <input type="reset" value="Clear Form" />
+    </p>
+</form>
+
+</html>

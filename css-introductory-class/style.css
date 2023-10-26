@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.text {
+    text-align: center;
+    text-shadow: 2px 3px 3px purple;
+    padding:2rem 5rem 5rem 3rem;
+    font-size: 50px;
+    color: rgb( 255,0,255)
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:visited {
+    color: #0f0;
+}
+
+a:hover {
+    opacity:0.5
+}
+
+a:hover, a:focus {
+    color: aqua;
+    text-decoration: underline;
+}
+.secondlink:visited {
+    color: blue;
+}
+.secondclass:hover {
+    opacity:0.2
+}
+.newclass2 {
+    color: #0f0;
+}
+.newclass3 {
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px 5px red;
+    color: rgb(100,0,0);
+}
+.newclass4 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(2, 14, 14, 0.9);
+}
+.newclass5 {
+    text-indent: 20px;
+    line-height: 1.8;
+    
+}
+.newclass6 {
+    
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: solid 2px red;
+    border-radius:100px;
+    margin: auto;
+    outline: solid 2px red ;
+    outline-offset: -45px;
+ 
+}
+
+ol {
+    list-style-type: lower-greek;
+    padding-left: 0;
+    list-style-position: inside;
+    color: papayawhip;
+    line-height: 1.5;
+    background: linear-gradient(to right, purple, violet);
+}
+
+ul {
+    list-style-type: disc;
+    color: aquamarine;
+    line-height: 1.5;
+    padding: 2rem;
+    padding-left: 0;
+    background: radial-gradient(Purple, violet);
+    text-align: right;
+    list-style-position: inside;
+
+}
+
+ul li:nth-child(even) {
+    color: red;
+}
+
+ol li:last-child {
+    color: blue;
+}

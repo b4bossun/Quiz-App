@@ -1,0 +1,106 @@
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+}
+
+.one {
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    outline: 2px solid black;
+    /*transform: translateX();*/
+    /*transform: rotateX(290deg);*/
+    /*transform: scaleX(250%) scaleY(200%);*/
+    transform: skewX(10deg);
+}
+
+.two {
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    outline: 2px solid black;
+    /*transform: rotateY(290deg);*/
+}
+
+.two:hover {
+    background-color: brown;
+    transition-property: background-color transform;
+    transition-duration: 2s;
+    transform: scale(120%, 120%) rotate(360deg);
+}
+
+.two-animation {
+    animation-name: ClassTest;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ClassTest {
+    0% {
+    transform: translateX(0);
+    }
+    25% {
+        transform: translateX(300px) rotate(180deg);
+    }
+    50% {
+        transform: translateY(-400px) rotate(-180deg);
+    }
+    75% {
+        transform: translateX(-300px) rotate(-180deg);
+    }
+    100% {
+        transform: translateY(0);
+        background-color: purple;
+    }
+}
+
+.three {
+    background-color: green;
+    color: white;
+    font-size: 2rem;
+    outline: 2px solid black;
+    transform: rotateZ(190deg);
+
+}
+
+.three-animation {
+    animation-name: ClassTest2;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ClassTest2 {
+    0% {
+    transform: translateX(0);
+    }
+    30% {
+        transform: translateY(400px) rotate(180deg);
+    }
+    50% {
+        transform: translateY(-400px) rotate(-180deg);
+    }
+    70% {
+        transform: translateY(200px) rotate(-180deg);
+    }
+    90% {
+        transform: translateY(-200) rotate(-180deg);
+        background-color: purple;
+    }
+    100% {
+        transform: translateY(0);
+        background-color: purple;
+    }
+    }

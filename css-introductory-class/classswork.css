@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, red, blue);
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 20em;
+    
+}
+div {
+    width: 350px;
+    height: 300px;
+    border: solid 1px violet;
+    border-radius: 15px;
+    margin-top: 200px;
+    margin-left: 200px;
+    box-shadow: 2px 4px 42px 6px  black;
+    text-align: center;
+}
+
+header {
+    background-color: yellow;
+    padding: 8px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+main {
+    border: 1px solid black;
+}
+h1 {
+    font-family: sans-serif;
+    font-style: italic;
+    color: red;
+}
+li {
+    background: linear-gradient(to right, red, blue);
+    height: 2em;
+    padding: 1em auto;
+    font-family: sans-serif;
+    color: lime;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
+li a {
+    color: lime;
+    display: block;
+    height: 100%;
+    /*padding-bottom: 13px;*/
+}
+
+.p1 {
+    border-bottom: 1px solid black;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.p2 {
+    font-size: small;
+    font-weight: lighter;
+}
+.p2 a:hover {
+    color: red ;
+    text-decoration: underline;
+}
+
+ li a:hover {
+    color: white;
+    background-color: black;
+}
+
+p a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: yellow;
+    text-align: center;
+    padding: 1px;
+    margin-top: 46px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+}
+div {
+    margin-bottom: 30px;
+    height: auto;
+}

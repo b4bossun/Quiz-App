@@ -1,0 +1,32 @@
+
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        #password{
+            color: rgb(110, 13, 13);
+            width: 100px;
+        }
+        #enter-your-name{
+            color: blue;
+            width: 100px;
+        }    
+        imput[type=password]
+        {
+            color: rgb(110, 13, 13);
+            width: 100px;
+        }
+        
+        
+        
